@@ -114,7 +114,7 @@ export const App = () => {
       variant_name: "4711_3",
     });
     window.location.replace(
-        "/sdui_screen?screenName=InvestmentLongread&fromCurrent=true&endpoint=v1/invest-main-screen-view/investment-longread/50352%3flocation=AM%26campaignCode=GH",
+        "alfabank://sdui_screen?screenName=InvestmentLongread&fromCurrent=true&endpoint=v1/invest-main-screen-view/investment-longread/50352%3flocation=AM%26campaignCode=GH",
     );
 
     LS.setItem(LSKeys.ShowThx, true);
